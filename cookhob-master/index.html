@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <style>
+    .mySlides {
+      display: none;
+    }
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+      cursor: pointer;
+    }
+    .w3-badge {
+      height: 13px;
+      width: 13px;
+      padding: 0;
+    }
+    .d-card-content {
+      text-align: center;
+    }
+    .d-card .d-img img {
+      height: 150px;
+    }
+    .d-card {
+      width: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  </style>
+  <body>
+    <div
+      class="w3-content w3-display-container"
+      style="max-width: 100vw; height: 500px;"
+    >
+      <img
+        class="mySlides"
+        src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        style="width: 100%; height: 500px;"
+      />
+      <img
+        class="mySlides"
+        src="https://images.pexels.com/photos/349749/kitchen-stove-sink-kitchen-counter-349749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        style="width: 100%; height: 500px;"
+      />
+      <img
+        class="mySlides"
+        src="https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        style="width: 100%; height: 500px;"
+      />
+      <div
+        class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+        style="width: 100%;"
+      >
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">
+          &#10094;
+        </div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
+          &#10095;
+        </div>
+        <span
+          class="w3-badge demo w3-border w3-transparent w3-hover-white"
+          onclick="currentDiv(1)"
+        ></span>
+        <span
+          class="w3-badge demo w3-border w3-transparent w3-hover-white"
+          onclick="currentDiv(2)"
+        ></span>
+        <span
+          class="w3-badge demo w3-border w3-transparent w3-hover-white"
+          onclick="currentDiv(3)"
+        ></span>
+      </div>
+    </div>
+
+    <div class="department">
+      <h1 style="text-align: center; margin-bottom: 50px; margin-top: 50px;">
+        Shop By Department
+      </h1>
+      <div class="d-card">
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/bc186731d5b3322cbbc30fb4427597bf/m/o/modena-ef81-electric-single-tank-8-litre-countertop-fryer-3_1.png"
+              alt=""
+            />
+          </div>
+          <p><a href="">Electric Fryer</a></p>
+        </div>
+
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/bc186731d5b3322cbbc30fb4427597bf/m/o/modena-g750-electric-coutertop-flat-griddle-75cm.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href=""> Electric Griddle</a></p>
+        </div>
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/k/c/kc120-chilled-food-display-unit-with-led-lighting_1__2.png"
+              alt=""
+            />
+          </div>
+          <p><a href="">Display cases</a></p>
+        </div>
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/1/8/1897945.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href=""> Meat Processing</a></p>
+        </div>
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/bc186731d5b3322cbbc30fb4427597bf/r/o/robot-coupe-cl-60-2-hoppers-vegetable-preparation-machine-2325_1.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href="">veg preparation</a></p>
+        </div>
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/9/4/940151.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href="">Mixer</a></p>
+        </div>
+      </div>
+
+      <div class="d-card">
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/1/8/1869337.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href="">Chiller</a></p>
+        </div>
+
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/7/k/7kg020o_adexa.jpg.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href="">Gas Range</a></p>
+        </div>
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/o/p/open-front-refrigerated-display-cabinet-model-amman1_2.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href="">Open Chiller</a></p>
+        </div>
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/d/5/d50_easywash.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href="">Under counter Dishwasher</a></p>
+        </div>
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/1/5/1504861.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href="">Beverage Equipment</a></p>
+        </div>
+        <div class="d-card-content">
+          <div class="d-img">
+            <img
+              src="http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/9/4/940151.jpg"
+              alt=""
+            />
+          </div>
+          <p><a href="">Mixer</a></p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function currentDiv(n) {
+        showDivs((slideIndex = n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-white";
+      }
+    </script>
+  </body>
+</html>

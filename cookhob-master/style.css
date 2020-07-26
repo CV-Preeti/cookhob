@@ -1,0 +1,112 @@
+.car-img{
+    background-image:
+     url("https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+}
+.car-img1{
+    background-image:
+     url("https://images.pexels.com/photos/349749/kitchen-stove-sink-kitchen-counter-349749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+   
+
+
+}
+.carousel-cell {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    counter-increment: carousel-cell;
+  }
+.redwrapper{
+    background-color:#d62014 ;
+    box-shadow:0px 0px 8px 1px rgb(206, 152, 152) ;
+    padding:22px;
+    border-radius: 10px;
+    width:300px;
+}
+.redwrapper p{
+    color:white;
+    font-size:20px ;
+    font-weight: 600;
+}
+.redwrapper p::first-letter{
+    color:yellow;
+    font-size:25px ;
+    font-weight: 700;
+}
+.whrapper{
+    margin:10px;
+    background-color: white;
+    border-radius:5px ;
+    padding:15px 5px 15px 5px;
+    box-shadow:0px 0px 8px 1px  rgb(206, 152, 152); 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whrapper p{
+    margin-bottom: 0px;
+    text-align: center;
+    padding:5px;
+}
+.circle1,.circle2,.circle3,.circle4,.circle5,.circle6{
+    border-radius: 50%;
+    background-color: #f5e9d4;
+    height:120px;
+    width:120px;
+    padding:2px;
+   
+
+}
+.cirle1{
+    background-image:
+    
+    url("http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/7/k/7kg020o_adexa.jpg.jpg");
+    background-size: cover; 
+     background-repeat: no-repeat;
+}
+
+.cirle2{
+    background-image:
+    url("http://www.cookhob.com/pub/media/catalog/product/cache/bc186731d5b3322cbbc30fb4427597bf/m/o/modena-ef81-electric-single-tank-8-litre-countertop-fryer-3_1.png");
+     background-size: cover; 
+     background-repeat: no-repeat;
+
+
+    }
+.circle3{
+    background-image: url("http://www.cookhob.com/pub/media/catalog/product/cache/bc186731d5b3322cbbc30fb4427597bf/m/o/modena-g750-electric-coutertop-flat-griddle-75cm.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+
+}
+.circle4{
+    background-image: url("http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/1/8/1869337.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+
+}
+.circle5{
+    background-image: url("http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/d/5/d50_easywash.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.circle6{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-image: url("http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/k/c/kc120-chilled-food-display-unit-with-led-lighting_1__2.png")
+}
+
+
+
+
+
