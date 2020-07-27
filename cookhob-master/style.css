@@ -43,29 +43,33 @@
 .whrapper{
     margin:10px;
     background-color: white;
-    border-radius:5px ;
+    border-radius:10px ;
     padding:15px 5px 15px 5px;
-    box-shadow:0px 0px 8px 1px  rgb(206, 152, 152); 
+   
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .whrapper p{
-    margin-bottom: 0px;
+   margin-bottom: 0px;
     text-align: center;
     padding:5px;
+    margin-top: 10px;
+    line-height: 1.3rem;
+    font-size: 12px;
+    font-weight: 400;
 }
 .circle1,.circle2,.circle3,.circle4,.circle5,.circle6{
     border-radius: 50%;
-    background-color: #f5e9d4;
+    background-color:rgb(211, 209, 209,0.3);
     height:120px;
     width:120px;
     padding:2px;
    
 
 }
-.cirle1{
+/*.cirle1{
     background-image:
     
     url("http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/7/k/7kg020o_adexa.jpg.jpg");
@@ -104,7 +108,7 @@
     background-size: cover; 
     background-repeat: no-repeat;
     background-image: url("http://www.cookhob.com/pub/media/catalog/product/cache/0e6be2f63429464a43592f95ce29890c/k/c/kc120-chilled-food-display-unit-with-led-lighting_1__2.png")
-}
+}*/
 
 
 
